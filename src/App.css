@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right, red,orange,yellow);
+height: 800px;
+width:100%;
+background-size: cover;}
+
+
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.done {
+  text-decoration: line-through;
+ 
+}
+#tasks {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  margin-top:2px;
+}
+
+input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid white;
+  border-radius: 4px;
+  width : 400px
+}
+button {
+  background-color: #8eaf4c; /* Green */
+  border: 2px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  height: 40px;
+  margin-left: 1px;
+  width:100px;
+}
+.main-div{
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+  margin-bottom: 30px;
+}
+h1{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.NAVBAR{
+  margin-bottom: 50px;
+  
+}
